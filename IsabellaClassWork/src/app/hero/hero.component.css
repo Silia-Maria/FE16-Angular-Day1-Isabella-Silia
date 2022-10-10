@@ -1,13 +1,19 @@
-.bg-light {
-    background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2EwMTgtaGJtZXJ0ei0yOC5qcGc.jpg")
-    no-repeat;
-    background-size: cover;   
-    background-position: center;
+.hero {
+    display: flex;
+    background: url("https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMzgtczc0LXBsb3ktMTIuanBn.jpg")
+    no-repeat center;
+    background-size: cover; 
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 12cm;
 }
 
-.container {
-    width: 100%;
-    height: 100%;
+.mycontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 70%;
+    margin-top: 5%;
+    position: absolute;
 }
+
