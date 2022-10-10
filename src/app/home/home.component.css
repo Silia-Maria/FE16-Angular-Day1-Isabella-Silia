@@ -59,7 +59,7 @@ Images Section
 .destination {
     color: #385e94;
     position: relative;
-    top: 50%;
+    top: 30%;
     background-color: hsla(25, 71%, 100%, 0.72);
     padding: 1rem 0;
 }
@@ -69,10 +69,21 @@ Images Section
 }
 
 .columns {
-    width: 48%;
+    width: 95%;
     height: 50vh;
+    margin: 0 auto;
     background-size: cover;
-    margin: 0.5rem 0.5rem;
+    border-radius: 3px;
+    margin-bottom: 3rem;
+}
+
+.price {
+    background-color: red;
+    color: white;
+    padding: 0.5rem 0;
+    position: relative;
+    width: 30%;
+    top: 2rem;
 }
 
 .item1 {

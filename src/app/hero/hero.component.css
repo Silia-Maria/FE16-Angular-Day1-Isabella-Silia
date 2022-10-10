@@ -1,13 +1,12 @@
 .hero {
     background-image: url(../images/hero1.jpg);
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     background-position: 0 16%;
 }
 
-
-/* .hero:hover {
-    transition: 1s;
-    filter: blur(0);
-} */
+.hero-text {
+    position: relative;
+    top: 15%;
+}
