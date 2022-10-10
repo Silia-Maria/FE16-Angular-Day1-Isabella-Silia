@@ -1,0 +1,13 @@
+.bg-light {
+    background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2EwMTgtaGJtZXJ0ei0yOC5qcGc.jpg")
+    no-repeat;
+    background-size: cover;   
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
