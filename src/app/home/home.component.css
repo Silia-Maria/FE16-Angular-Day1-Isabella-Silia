@@ -1,3 +1,7 @@
+/*
+first Section
+*/
+
 .first-section {
     background-color: #385e94;
     color: white;
@@ -13,4 +17,76 @@
 
 .icon-def {
     font-size: 0.7rem;
+}
+
+
+/* 
+Second Section 
+*/
+
+.second-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.second-section::before {
+    content: "";
+    background-image: url(../images/second-section.jpg);
+    background-size: cover;
+    background-position: 0 80%;
+    opacity: 0.2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.section-content {
+    position: relative;
+    color: #385e94;
+    width: 100%;
+}
+
+
+/*
+Images Section
+*/
+
+.destination {
+    color: #385e94;
+    position: relative;
+    top: 50%;
+    background-color: hsla(25, 71%, 100%, 0.72);
+    padding: 1rem 0;
+}
+
+.image-container {
+    margin: 2rem 10rem;
+}
+
+.columns {
+    width: 48%;
+    height: 50vh;
+    background-size: cover;
+    margin: 0.5rem 0.5rem;
+}
+
+.item1 {
+    background-image: url(../images/ski1.jpg);
+}
+
+.item2 {
+    background-image: url(../images/ski2.jpg);
+}
+
+.item3 {
+    background-image: url(../images/ski3.jpg);
+}
+
+.item4 {
+    background-image: url(../images/ski4.jpg);
 }
